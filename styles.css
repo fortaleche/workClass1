@@ -1,0 +1,188 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Define la tipografía */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo gris claro */
+    color: #333; /* Color del texto principal */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 20px;
+    text-align: center; /* Centra el contenido del encabezado */
+}
+
+/* Estilos para el formulario de búsqueda en el header */
+header form {
+    margin-top: 10px;
+}
+
+header form input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+header form button {
+    padding: 5px 10px;
+    background-color: white;
+    color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header form button:hover {
+    background-color: aquamarine; /* Cambia el color del botón al pasar el cursor */
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Elimina viñetas */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Los elementos del menú se muestran en línea */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Sin subrayado */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+/* Banner publicitario */
+#banner img {
+    width: 100%; /* Imagen a tamaño completo */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Sección de productos - Alineación en fila */
+section {
+    text-align: center; /* Centra el contenido de las secciones */
+}
+
+.producto {
+    width: 30%; /* Cada producto ocupa el 30% del ancho */
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: inline-block; /* Se muestran en línea */
+    vertical-align: top;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el efecto de elevación */
+    transition: transform 0.3s ease; /* Transición suave en hover */
+}
+
+.producto img {
+    max-width: 100%; /* Imágenes adaptadas al contenedor */
+    height: auto;
+}
+
+.producto img:hover {
+transform: scale(1.05);
+
+}
+
+button{
+
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button:hover{
+background-color: #0056b3;
+
+}
+
+#suscripcion {
+ background-color: #007bff;
+ color: white;
+ padding: 40-x 20px;
+ text-align: center;
+ margin-top: 20 px;
+
+}
+
+#suscripcion h2{
+
+    margin-bottom: 20px;
+}
+
+#suscripcion input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    max-width: 100%;
+
+}
+
+#suscripcion button{
+background-color: white;
+color: #007bff;
+padding: 10px 20px;
+margin-top: 10px;
+
+}
+
+#suscripcion button:hover{
+    background-color: aquamarine;
+    color: #333;
+
+}
+
+#about {
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#about p{
+    max-width: 800px;
+    margin-top: 0;
+    font-size: 18px;
+
+}
+
+footer {
+background-color: #333;
+color: white;
+padding: 20px 0;
+text-align: center;
+
+}
+
+.footer-context{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 20px;
+
+}
+
+.footer-context div{
+
+    width: 30px;
+}
